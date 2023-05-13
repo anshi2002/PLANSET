@@ -15,7 +15,9 @@ a:hover {
 h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Roboto", sans-serif;
 }
-
+.card-img-top.rounded-circle.top {
+  height: 455px;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -2194,4 +2196,18 @@ section {
 }
 .container.end {
   margin-bottom: 32px;
+}
+
+.ce {
+  text-align: center;
+}
+.card-title {
+  margin-bottom: .75rem;
+  text-align: center;
+  font-size: xx-large;
+}
+.card-text:last-child {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 17px;
 }
