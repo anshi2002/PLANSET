@@ -10,6 +10,10 @@ a {
   color: #4fa6d5;
 }
 
+
+.card-img-top.rounded-circle.top {
+  height: 455px;
+}
 a:hover {
   color: #45beff;
   text-decoration: none;
@@ -2219,6 +2223,16 @@ section {
 
 #footer .credits a {
   color: #a2cce3;
+}
+.card-title {
+  margin-bottom: .75rem;
+  text-align: center;
+  font-size: xx-large;
+}
+.card-text:last-child {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 17px;
 }
 
 /*@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap");
